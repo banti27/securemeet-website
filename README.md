@@ -23,8 +23,14 @@
 
 ```
 securemeet-website/
+├── docs/                        # Documentation files
+│   ├── CONTRIBUTING.md         # Contribution guidelines
+│   ├── DNS_SETUP.md            # DNS configuration guide
+│   ├── DEPLOYMENT_COMPLETE.md  # Deployment completion guide
+│   ├── QUICK_START.md          # Quick start guide
+│   └── LIVE_SITE.md            # Live site access guide
 ├── public/
-│   └── CNAME                    # Custom domain configuration
+│   └── vite.svg                # Public assets
 ├── src/
 │   ├── components/
 │   │   ├── Header.jsx          # Navigation header
@@ -37,8 +43,19 @@ securemeet-website/
 ├── package.json                # Dependencies and scripts
 ├── tailwind.config.js          # Tailwind configuration
 ├── postcss.config.js           # PostCSS configuration
-└── vite.config.js              # Vite build configuration
+├── vite.config.js              # Vite build configuration
+└── README.md                   # This file
 ```
+
+## 📚 Documentation
+
+Comprehensive guides are available in the `docs/` folder:
+
+- **[Quick Start Guide](docs/QUICK_START.md)** - Get up and running quickly
+- **[Live Site Access](docs/LIVE_SITE.md)** - Access your live website
+- **[DNS Setup Guide](docs/DNS_SETUP.md)** - Configure custom domain DNS
+- **[Deployment Guide](docs/DEPLOYMENT_COMPLETE.md)** - Complete deployment instructions
+- **[Contributing Guidelines](docs/CONTRIBUTING.md)** - How to contribute to the project
 
 ## 🛠️ Development Setup
 
